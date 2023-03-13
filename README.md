@@ -24,6 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 This should be prefaced by saying that I didn't have much time to spend on the app as I am in the middle of a big move (to Dubai from Europe). But here are some of the things I would've liked to have added, but couldn't in the interest of time :)
 
 * Tests (Unit, Functional and Snapshot) :(
+* Highlighting the Filter button or changing the text with the active Filter. Clear All to clear the active filters.
 * Sorting for the grid
 * Validation for filters on Save
 * Error handling
