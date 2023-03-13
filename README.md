@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+# Simple implementation of Deribit Market Viewer!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)\
+and built in React with TypeScript using [Material UI](https://mui.com/material-ui/) and [Prettier](https://prettier.io/) for formatting.
 
-## Available Scripts
+Unfortunately, as I am currently occupied with a big move, I couldn't spend more time to make this my best work (Please refer to [Things to do](https://github.com/urstruly/market-viewer/edit/main/README.md#things-to-do) for things I would have done differently or added to this implementation)
+
+Also, this is my first time using websockets for real-time data, so I may not have optimized it for the best performance, but I did try to account for different use cases, for an app that displays real-time data :)
+
+Tested on Chrome, Firefox and Safari on iOS, but could not test it on browsers on Windows and Linux since I don't have a VM setup with different images on my current laptop (as I sold off my previous desktop/mac setup for the move :( )
+
+## Steps to run
 
 In the project directory, you can run:
 
@@ -11,36 +18,12 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Things to do
 
-### `npm test`
+This should be prefaced by saying that I didn't have much time to spend on the app as I am in the middle of a big move (to Dubai from Europe). But here are some of the things I would've liked to have added, but couldn't in the interest of time :)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Tests (Unit, Functional and Snapshot) :(
+* Sorting for the grid
+* Validation for filters on Save
+* Error handling
+* Favorites and Trade button links to Deribit pages
