@@ -1,0 +1,7 @@
+table.asset-grid {
+  padding: 0 20px;
+}
+
+.asset-grid .asset-name > svg {
+  margin: 0 4px -4px;
+}

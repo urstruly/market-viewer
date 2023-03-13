@@ -1,0 +1,43 @@
+.filter-toolbar {
+  margin-top: 24px;
+  padding-right: 36px;
+  text-align: right;
+}
+
+.filter-menu li,
+.filter-menu .filter-menu-custom {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.filter-menu li > .filter-menu-custom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 26px;
+}
+
+.filter-menu li > svg {
+  margin-right: 8px;
+}
+
+.filter-menu li > .filter-menu-selected-icon {
+  margin-right: 6px;
+}
+
+.filter-menu-custom .filter-menu-custom-action {
+  border-radius: 0;
+  padding: 0;
+  margin: -6px 0 0 16px;
+}
+
+.filter-menu-custom .filter-menu-custom-action:last-child {
+  margin-left: 8px;
+}
+
+.filter-menu li > .filter-menu-custom-selected {
+  padding-left: 0;
+}
+
+.modal-content .filter-name {
+  margin-bottom: 24px;
+}
