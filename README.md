@@ -13,6 +13,7 @@ Tested on Chrome, Firefox and Safari on iOS, but could not test it on browsers o
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
