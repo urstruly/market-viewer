@@ -3,11 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)\
 and built in React with TypeScript using [Material UI](https://mui.com/material-ui/) and [Prettier](https://prettier.io/) for formatting.
 
-Unfortunately, as I am currently occupied with a big move, I couldn't spend more time to make this my best work (Please refer to [Things to do](https://github.com/urstruly/market-viewer/edit/main/README.md#things-to-do) for things I would have done differently or added to this implementation)
-
-Also, this is my first time using websockets for real-time data, so I may not have optimized it for the best performance, but I did try to account for different use cases, for an app that displays real-time data :)
-
-Tested on Chrome, Firefox and Safari on iOS, but could not test it on browsers on Windows and Linux since I don't have a VM setup with different images on my current laptop (as I sold off my previous desktop/mac setup for the move :( )
+Unfortunately, as I am currently occupied with a big move, I couldn't spend more time to work on more things. (Please refer to [Things to do](https://github.com/urstruly/market-viewer/edit/main/README.md#things-to-do) for things I would have done differently or added to this implementation)
 
 ## Steps to run
 
